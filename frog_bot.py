@@ -42,8 +42,8 @@ async def get_pepe_url():
     return BACKUP_FROG
 
 
-async def send_pepe():
-    pepe_url = get_pepe_url()
+async def send_pepe_wish():
+    pepe_url = await get_pepe_url()
     bot = Bot(token=TOKEN)
     text = "Лямгущька поздравляет тебя со средой, мой дорогой друг! 🐸"
 
@@ -61,4 +61,4 @@ async def send_pepe():
 
 
 if __name__ == "__main__":
-    asyncio.run(send_pepe())
+    asyncio.run(send_pepe_wish())
