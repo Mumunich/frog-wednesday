@@ -30,5 +30,5 @@ git clone https://github.com
 cron: '0 7 * * 3' — это 10:00 по МСК каждую среду
 
 ## Документация
-[OnlyPepes-api-doc](https://onlypepes.com/api-docs/)
-[OnlyPepes](https://onlypepes.com/)
+- [OnlyPepes-api-doc](https://onlypepes.com/api-docs/)
+- [OnlyPepes](https://onlypepes.com/)
