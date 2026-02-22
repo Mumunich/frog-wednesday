@@ -28,3 +28,7 @@ git clone https://github.com
 4. **Проверь расписание:**
 В файле .github/workflows/wednesday_frog.yml настроено время:
 cron: '0 7 * * 3' — это 10:00 по МСК каждую среду
+
+## Документация
+[OnlyPepes-api-doc](https://onlypepes.com/api-docs/)
+[OnlyPepes](https://onlypepes.com/)
