@@ -8,7 +8,7 @@ from aiogram import Bot
 TOKEN = os.getenv("BOT_TOKEN")
 FRIEND_ID = os.getenv("FRIEND_ID", "").split(",")
 # Прямая ссылка на картинку в репозитории
-BACKUP_FROG = "https://github.com/Mumunich/movie-watchlist-bot/raw/main/qVGFmwd7WlfeNIOvGLXMMKxUXLlMJkiM6eTDepyKnCrd57jNe5DCrBrLQU6e_QywJtrVxGntV9YyQaPo_XuKGlyr.jpg"
+BACKUP_FROG = "https://github.com/Mumunich/frog-wednesday/raw/main/backup_frog.jpg"
 
 def check_api_status():
     """Пример использования REQUESTS (синхронно)"""
