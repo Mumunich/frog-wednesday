@@ -14,7 +14,6 @@ def check_api_status():
     """Пример использования REQUESTS (синхронно)"""
     url = "https://onlypepes.com"
     try:
-        # Requests удобен для быстрых проверок 'в одну строку'
         r = requests.head(url, timeout=5)
         return r.status_code == 200
     except:
@@ -23,7 +22,7 @@ def check_api_status():
 
 async def get_pepe_url():
     url = "https://onlypepes.com/api/pepe?limit=1&random=true"
-    # 1. Сначала проверим статус через requests (просто для шпаргалки)
+    # проверим статус через requests
     if not check_api_status():
         return BACKUP_FROG
 
